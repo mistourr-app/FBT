@@ -1,0 +1,27 @@
+2026-01-02 19:25:16.799 [info] 
+
+
+
+
+2026-01-02 19:25:16.820 [info] Extension host agent started.
+2026-01-02 19:25:16.853 [info] Started initializing default profile extensions in extensions installation folder. file:///home/mistourr/.codeoss/extensions
+2026-01-02 19:25:16.881 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/mistourr/.codeoss/extensions
+2026-01-02 19:25:19.522 [info] [127.0.0.1][fd555095][ManagementConnection] New connection established.
+2026-01-02 19:25:19.552 [info] [127.0.0.1][c72653ad][ExtensionHostConnection] New connection established.
+2026-01-02 19:25:21.269 [info] [127.0.0.1][c72653ad][ExtensionHostConnection] <1431> Launched Extension Host Process.
+2026-01-02 19:26:41.096 [info] [127.0.0.1][fd555095][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-01-02 19:28:46.580 [info] [127.0.0.1][fd555095][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-01-02 19:28:46.581 [info] [127.0.0.1][af8a200d][ManagementConnection] New connection established.
+2026-01-02 19:28:46.590 [info] [127.0.0.1][3375205c][ExtensionHostConnection] New connection established.
+2026-01-02 19:28:46.595 [info] [127.0.0.1][3375205c][ExtensionHostConnection] <2465> Launched Extension Host Process.
+2026-01-02 19:31:19.976 [info] [127.0.0.1][3375205c][ExtensionHostConnection] <2465> Extension Host Process exited with code: 0, signal: null.
+2026-01-02 19:31:20.614 [info] [127.0.0.1][af8a200d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-01-02 19:31:23.520 [info] [127.0.0.1][d38e1f78][ManagementConnection] New connection established.
+2026-01-02 19:31:29.632 [info] [127.0.0.1][98f548c0][ExtensionHostConnection] New connection established.
+2026-01-02 19:31:29.637 [info] [127.0.0.1][98f548c0][ExtensionHostConnection] <3592> Launched Extension Host Process.
+2026-01-02 19:33:46.835 [info] [127.0.0.1][fd555095][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2026-01-02 19:33:47.055 [info] [127.0.0.1][c72653ad][ExtensionHostConnection] <1431> Extension Host Process exited with code: 0, signal: null.
+2026-01-02 20:15:34.673 [info] [127.0.0.1][98f548c0][ExtensionHostConnection] The client has reconnected.
+2026-01-02 20:18:09.718 [info] [127.0.0.1][98f548c0][ExtensionHostConnection] The client has reconnected.
+2026-01-02 21:32:35.153 [info] [127.0.0.1][d38e1f78][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-01-02 21:32:35.432 [info] [127.0.0.1][98f548c0][ExtensionHostConnection] <3592> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,94 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Design CSS and JS -->
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Material Design Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- App Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Family Budget Tracker</title>
+</head>
+<body class="mdc-typography">
+
+<div class="container">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1>Budget Tracker</h1>
+        <a href="/categories.html" class="mdc-button">
+            <span class="mdc-button__ripple"></span>
+            <span class="mdc-button__label">Manage Categories</span>
+        </a>
+    </div>
+
+
+    <!-- Summary Section -->
+    <div class="summary">
+        <div>
+            <h3>Total Income</h3>
+            <span id="total-income" class="amount">$0.00</span>
+        </div>
+        <div>
+            <h3>Total Expenses</h3>
+            <span id="total-expenses" class="amount">$0.00</span>
+        </div>
+        <div>
+            <h3>Balance</h3>
+            <span id="balance" class="amount">$0.00</span>
+        </div>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="filters mdc-menu-surface--anchor">
+        <button class="mdc-button mdc-button--outlined" id="date-filter-button">
+            <span class="mdc-button__ripple"></span>
+            <span class="mdc-button__label">Select Period</span>
+            <i class="material-icons mdc-button__icon" aria-hidden="true">arrow_drop_down</i>
+        </button>
+        <button class="mdc-icon-button material-icons" id="reset-date-filter-button" title="Reset to default" hidden>
+            <div class="mdc-icon-button__ripple"></div>
+            refresh
+        </button>
+        <div class="mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth" id="date-filter-menu">
+            <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+                <!-- Items will be populated by JavaScript -->
+            </div>
+        </div>
+
+<!-- Adding Transaction -->
+    <div class="forms">
+        <div class="form-container">
+        <h2>Add Income</h2>
+        <form id="income-form" class="transaction-form">
+            <input type="number" id="income-amount" placeholder="Amount" min="0.01" step="0.01" required>
+            <select id="income-category" required>
+                <option value="" disabled selected>Select category</option>
+            </select>
+            <button id="add-income-btn" type="submit" class="mdc-button mdc-button--raised">Add Income</button>
+        </form>
+        </div>
+        <div class="form-container">
+        <h2>Add Expense</h2>
+        <form id="expense-form" class="transaction-form">
+            <input type="number" id="expense-amount" placeholder="Amount" min="0.01" step="0.01" required>
+            <select id="expense-category" required>
+                <option value="" disabled selected>Select category</option>
+            </select>
+            <button id="add-expense-btn" type="submit" class="mdc-button mdc-button--raised">Add Expense</button>
+        </form>
+        </div>
+    </div>
+    <!-- Transactions List -->
+    <h2>Transactions</h2>
+    <ul id="transaction-list" class="mdc-list mdc-list--two-line"></ul>  
+</div>
+
+<script src="app.js" defer></script>
+</body>
+</html>

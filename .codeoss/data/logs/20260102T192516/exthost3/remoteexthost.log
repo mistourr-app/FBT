@@ -1,0 +1,754 @@
+2026-01-02 19:31:52.064 [info] Extension host with pid 3592 started
+2026-01-02 19:31:52.085 [info] Lock '/home/mistourr/.codeoss/data/User/workspaceStorage/-7a901b17/vscode.lock': Lock acquired.
+2026-01-02 19:31:57.326 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-02 19:31:57.433 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-02 19:31:57.486 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-02 19:31:57.486 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-02 19:32:03.625 [info] Eager extensions activated
+2026-01-02 19:32:03.626 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2026-01-02 19:32:03.626 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2026-01-02 19:32:03.627 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2026-01-02 19:32:03.628 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-02 19:32:03.628 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2026-01-02 19:32:03.629 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-02 19:32:06.008 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2026-01-02 19:32:09.451 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-02 19:32:09.451 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-02 19:32:09.451 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-02 19:45:29.992 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2026-01-02 19:47:05.031 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-01-02 19:47:21.532 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-02 19:47:21.533 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-01-02 19:50:04.834 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2026-01-02 20:15:33.810 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.811 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.812 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.813 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.814 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.815 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.816 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.817 [error] Error: write ECANCELED
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.819 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.820 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:15:33.821 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-01-02 20:17:29.908 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-01-02 20:17:40.370 [warning] ExtHostTextEditorOptions 'setOptions' failed:'
+2026-01-02 20:17:40.371 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model12)
+2026-01-02 21:32:35.183 [info] Extension host terminating: received terminate message from renderer
+2026-01-02 21:32:35.183 [info] Lock '/home/mistourr/.codeoss/data/User/workspaceStorage/-7a901b17/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-01-02 21:32:35.248 [error] [vscode.html-language-features] provider FAILED
+2026-01-02 21:32:35.248 [error] Error: Starting server failed
+    at T.$start (/google/devshell/editor/code-oss-for-cloud-shell/extensions/html-language-features/client/dist/node/htmlClientMain.js:2:60692)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at T.sendRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/html-language-features/client/dist/node/htmlClientMain.js:2:44293)
+    at LA.provideColors (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:151938)
+2026-01-02 21:32:35.310 [error] Error: Channel has been closed
+    at s (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:119:2431)
+    at Object.append (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:119:2528)
+    at t.FileLoggableOutputChannel.append (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/utils/loggable_output_channel.ts:45:30)
+    at Socket.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/node_modules/vscode-languageclient/lib/node/main.js:430:80)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-01-02 21:32:35.326 [info] Extension host with pid 3592 exiting with code 0

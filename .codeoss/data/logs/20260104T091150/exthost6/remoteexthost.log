@@ -1,0 +1,29 @@
+2026-01-04 12:46:06.738 [info] Extension host with pid 40441 started
+2026-01-04 12:46:06.738 [error] Error: EEXIST: file already exists, open '/home/mistourr/.codeoss/data/User/workspaceStorage/-692778d3/vscode.lock'
+2026-01-04 12:46:06.743 [info] Lock '/home/mistourr/.codeoss/data/User/workspaceStorage/-692778d3/vscode.lock': Could not acquire lock, checking if the file is stale.
+2026-01-04 12:46:06.773 [info] Lock '/home/mistourr/.codeoss/data/User/workspaceStorage/-692778d3/vscode.lock': The lock does not look stale, elapsed: 891 ms, giving up.
+2026-01-04 12:46:06.777 [error] Error: EEXIST: file already exists, open '/home/mistourr/.codeoss/data/User/workspaceStorage/-692778d3-1/vscode.lock'
+2026-01-04 12:46:06.783 [info] Lock '/home/mistourr/.codeoss/data/User/workspaceStorage/-692778d3-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2026-01-04 12:46:06.784 [info] Lock '/home/mistourr/.codeoss/data/User/workspaceStorage/-692778d3-1/vscode.lock': The lock does not look stale, elapsed: 2569 ms, giving up.
+2026-01-04 12:46:07.015 [info] Lock '/home/mistourr/.codeoss/data/User/workspaceStorage/-692778d3-2/vscode.lock': Lock acquired.
+2026-01-04 12:46:07.700 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2026-01-04 12:46:07.710 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-04 12:46:07.714 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2026-01-04 12:46:13.654 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-04 12:46:13.708 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2026-01-04 12:46:13.899 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onTerminalProfile:cloudshell.default'
+2026-01-04 12:46:16.115 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-04 12:46:16.118 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-04 12:46:16.978 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-04 12:46:16.981 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-04 12:46:24.930 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2026-01-04 12:46:24.944 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2026-01-04 12:46:24.946 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-04 12:46:24.965 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2026-01-04 12:46:24.965 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-04 12:46:42.436 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-01-04 12:46:44.267 [info] Eager extensions activated
+2026-01-04 12:46:49.834 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-04 12:48:41.234 [info] Extension host terminating: received terminate message from renderer
+2026-01-04 12:48:41.235 [info] Lock '/home/mistourr/.codeoss/data/User/workspaceStorage/-692778d3-2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-01-04 12:48:41.439 [info] Extension host with pid 40441 exiting with code 0

@@ -1,0 +1,314 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Design CSS and JS -->
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Material Design Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- App Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Family Budget Tracker</title>
+</head>
+<body class="mdc-typography">
+
+<div class="container">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1 class="mdc-typography--headline4">Budget Tracker</h1>
+        <a href="/categories.html" class="mdc-button">
+            <span class="mdc-button__ripple"></span>
+            <span class="mdc-button__label">Manage Categories</span>
+        </a>
+    </div>
+
+
+    <!-- Summary Section -->
+    <div class="summary">
+        <div>
+            <h3>Total Income</h3>
+            <span id="total-income" class="amount">$0.00</span>
+        </div>
+        <div>
+            <h3>Total Expenses</h3>
+            <span id="total-expenses" class="amount">$0.00</span>
+        </div>
+        <div>
+            <h3>Balance</h3>
+            <span id="balance" class="amount">$0.00</span>
+        </div>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="filters">
+        <div class="mdc-select mdc-select--outlined" id="year-filter-mdc">
+            <div class="mdc-select__anchor" role="button" aria-haspopup="listbox" aria-expanded="false">
+                <span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span id="year-label" class="mdc-floating-label">Year</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                <span class="mdc-select__selected-text-container"><span id="year-selected-text" class="mdc-select__selected-text"></span></span>
+                <span class="mdc-select__dropdown-icon"><svg class="mdc-select__dropdown-icon-graphic" viewBox="7 10 10 5" focusable="false"><polygon class="mdc-select__dropdown-icon-inactive" stroke="none" fill-rule="evenodd" points="7 10 12 15 17 10"></polygon><polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15"></polygon></svg></span>
+            </div>
+            <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth">
+                <ul class="mdc-list" id="year-list" role="listbox"></ul>
+            </div>
+        </div>
+        <div class="mdc-select mdc-select--outlined" id="month-filter-mdc">
+            <div class="mdc-select__anchor" role="button" aria-haspopup="listbox" aria-expanded="false">
+                <span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span id="month-label" class="mdc-floating-label">Month</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                <span class="mdc-select__selected-text-container"><span id="month-selected-text" class="mdc-select__selected-text"></span></span>
+                <span class="mdc-select__dropdown-icon"><svg class="mdc-select__dropdown-icon-graphic" viewBox="7 10 10 5" focusable="false"><polygon class="mdc-select__dropdown-icon-inactive" stroke="none" fill-rule="evenodd" points="7 10 12 15 17 10"></polygon><polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15"></polygon></svg></span>
+            </div>
+            <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth">
+                <ul class="mdc-list" id="month-list" role="listbox"></ul>
+            </div>
+        </div>
+        <!-- Hidden original selects for logic -->
+        <select id="month-filter" style="display: none;"></select>
+        <select id="year-filter" style="display: none;"></select>
+    </div>
+
+    <!-- Forms Section -->
+    <div class="forms">
+        <div class="form-container">
+            <h2>Add Income</h2>
+            <form id="income-form" class="transaction-form">
+                <input type="number" id="income-amount" placeholder="Amount" min="0.01" step="0.01" required>
+                <select id="income-category" required>
+                    <option value="" disabled selected>Select category</option>
+                </select>
+                <button id="add-income-btn" type="submit">Add Income</button>
+            </form>
+        </div>
+        <div class="form-container">
+            <h2>Add Expense</h2>
+            <form id="expense-form" class="transaction-form">
+                <input type="number" id="expense-amount" placeholder="Amount" min="0.01" step="0.01" required>
+                <select id="expense-category" required>
+                    <option value="" disabled selected>Select category</option>
+                </select>
+                <button id="add-expense-btn" type="submit">Add Expense</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Transactions List -->
+    <h2>Transactions</h2>
+    <ul id="transaction-list" class="mdc-list mdc-list--two-line"></ul>
+</div>
+
+<script>
+    const apiUrl = 'http://localhost:8080';
+
+    const transactionList = document.getElementById('transaction-list');
+    const incomeForm = document.getElementById('income-form');
+    const expenseForm = document.getElementById('expense-form');
+    const incomeCategorySelect = document.getElementById('income-category');
+    const expenseCategorySelect = document.getElementById('expense-category');
+
+    // This will hold our available dates from the server, e.g., { "2024": [5, 6, 7], "2023": [12] }
+    let availableDates = {};
+
+    // Helper to format currency
+    const formatCurrency = (amount) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(amount);
+    // Helper to format date
+    const formatDate = (isoString) => new Date(isoString).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+
+    // Function to populate category dropdowns
+    async function populateCategories() {
+        incomeCategorySelect.innerHTML = '<option value="" disabled selected>Select category</option>';
+        expenseCategorySelect.innerHTML = '<option value="" disabled selected>Select category</option>';
+
+        const response = await fetch(`${apiUrl}/categories`);
+        const categories = await response.json();
+
+        categories.income.forEach(cat => {
+            incomeCategorySelect.add(new Option(cat, cat));
+        });
+        categories.expenses.forEach(cat => {
+            expenseCategorySelect.add(new Option(cat, cat));
+        });
+    }
+
+    // Function to populate date filters based on available data
+    async function populateDateFilters() {
+        const response = await fetch(`${apiUrl}/transactions/dates`);
+        availableDates = await response.json();
+        
+        const monthFilter = document.getElementById('month-filter');
+        const yearFilter = document.getElementById('year-filter');
+
+        const today = new Date();
+        const currentYear = today.getFullYear();
+        const currentMonth = today.getMonth();
+
+        const years = Object.keys(availableDates).sort((a, b) => b - a);
+        const yearList = document.getElementById('year-list');
+        yearList.innerHTML = '';
+        years.forEach(year => {
+            const li = document.createElement('li');
+            li.className = 'mdc-list-item';
+            li.dataset.value = year;
+            li.innerHTML = `<span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text">${year}</span>`;
+            yearList.appendChild(li);
+        });
+
+        // If there's data for the current year, select it. Otherwise, select the most recent year.
+        if (years.includes(String(currentYear))) {
+            const yearSelect = mdcSelects['year-filter-mdc'];
+            // Wait for the component to be ready before setting the value
+            setTimeout(() => { yearSelect.value = String(currentYear); }, 0);
+        }
+
+        updateMonthFilter();
+
+        // If there's data for the current month, select it.
+        if (availableDates[mdcSelects['year-filter-mdc'].value]?.includes(currentMonth + 1)) {
+            const monthSelect = mdcSelects['month-filter-mdc'];
+            // Wait for the component to be ready before setting the value
+            setTimeout(() => {
+                monthSelect.value = String(currentMonth + 1);
+            }, 0);
+        }
+    }
+
+    // Updates the month filter based on the selected year
+    function updateMonthFilter() {
+        const yearSelect = mdcSelects['year-filter-mdc'];
+        if (!yearSelect) return;
+        const selectedYear = yearSelect.value;
+        const monthsForYear = availableDates[selectedYear] || [];
+        const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        const monthList = document.getElementById('month-list');
+        
+        monthFilter.innerHTML = '';
+        monthList.innerHTML = '';
+        monthsForYear.forEach(monthNumber => {
+            const li = document.createElement('li');
+            li.className = 'mdc-list-item';
+            li.dataset.value = monthNumber;
+            li.innerHTML = `<span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text">${monthNames[monthNumber - 1]}</span>`;
+            monthList.appendChild(li);
+        });
+
+        // Reset the month select component so it recognizes the new items
+        const monthSelect = mdcSelects['month-filter-mdc'];
+        monthSelect.value = ''; // Clear any previous selection
+        monthSelect.layout(); // Tell the component to re-render
+    }
+
+    // Fetches all data and re-renders the entire UI
+    async function refreshUI() {
+        const selectedYear = mdcSelects['year-filter-mdc']?.value;
+        const selectedMonth = mdcSelects['month-filter-mdc']?.value;
+        const response = await fetch(`${apiUrl}/transactions?year=${selectedYear}&month=${selectedMonth}`);
+        const transactions = await response.json();
+
+        // Clear previous list
+        transactionList.innerHTML = '';
+
+        // Calculate totals using Array.reduce
+        const totalIncome = transactions
+            .filter(t => t.type === 'income')
+            .reduce((sum, t) => sum + t.amount, 0);
+
+        const totalExpenses = transactions
+            .filter(t => t.type === 'expense')
+            .reduce((sum, t) => sum + t.amount, 0);
+
+        const balance = totalIncome - totalExpenses;
+
+        // Update summary
+        document.getElementById('total-income').textContent = formatCurrency(totalIncome);
+        document.getElementById('total-expenses').textContent = formatCurrency(totalExpenses);
+        document.getElementById('balance').textContent = formatCurrency(balance);
+
+        // Render transaction list
+        transactions.forEach(t => {
+            const li = document.createElement('li');
+            li.className = t.type === 'income' ? 'income-item' : 'expense-item';
+            li.classList.add('mdc-list-item');
+            li.innerHTML = `
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">${t.category}</span>
+                    <span class="mdc-list-item__secondary-text">${formatDate(t.date)}</span>
+                </span>
+                <span class="mdc-list-item__meta amount">
+                    <span class="amount-text">${t.type === 'expense' ? '-' : ''}${formatCurrency(t.amount)}</span>
+                    <button class="mdc-icon-button material-icons delete-btn" data-id="${t.id}" title="Delete">delete</button>
+                </span>
+            `;
+            transactionList.appendChild(li);
+        });
+    }
+
+    // Generic function to handle adding a transaction
+    async function addTransaction(event, type) {
+        event.preventDefault();
+        const amountInput = document.getElementById(`${type}-amount`);
+        const categoryInput = document.getElementById(`${type}-category`);
+
+        const amount = amountInput.value;
+        const category = categoryInput.value;
+
+        if (!category) {
+            alert('Please select a category.');
+            return; // Stop the function
+        }
+
+        await fetch(`${apiUrl}/transactions`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ type, amount, category, date: new Date().toISOString() }),
+        });
+
+        amountInput.value = '';
+        categoryInput.value = '';
+
+        await refreshUI();
+    }
+
+    // Event Listeners
+    incomeForm.addEventListener('submit', (e) => addTransaction(e, 'income'));
+    expenseForm.addEventListener('submit', (e) => addTransaction(e, 'expense'));
+
+    // Event listener for deleting transactions (using event delegation)
+    transactionList.addEventListener('click', async (event) => {
+        if (event.target.classList.contains('delete-btn')) {
+            const id = event.target.dataset.id;
+            await fetch(`${apiUrl}/transactions/${id}`, { method: 'DELETE' });
+            await refreshUI();
+        }
+    });
+
+    // --- MDC Initialization ---
+    const mdcSelects = {};
+    function initializeMDC() {
+        document.querySelectorAll('.mdc-button').forEach(el => new mdc.ripple.MDCRipple(el));
+        document.querySelectorAll('.mdc-select').forEach(el => {
+            const select = new mdc.select.MDCSelect(el);
+            mdcSelects[el.id] = select;
+            if (el.id.includes('-filter-')) {
+                select.listen('MDCSelect:change', () => {
+                    if (el.id.includes('year')) { updateMonthFilter(); }
+                    refreshUI();
+                })
+            }
+        });
+    }
+
+    // --- App Initialization ---
+    async function initializeApp() {
+        initializeMDC();
+        await populateCategories();
+        await populateDateFilters();
+        
+        refreshUI();
+    }
+    initializeApp();
+</script>
+</body>
+</html>
