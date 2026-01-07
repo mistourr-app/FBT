@@ -33,6 +33,11 @@ h1 { font-size: 1.75rem; margin-bottom: 1rem; }
     width: 100%;
 }
 .summary-main div { flex: 1; }
+.summary-balance {
+    border-top: 1px solid var(--color-border);
+    padding-top: 1.5rem;
+    width: 100%;
+}
 .summary h3 { margin: 0 0 5px 0; font-size: 0.8rem; color: var(--color-text-secondary); font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; }
 .summary .amount { font-size: 1.5em; font-weight: 600; }
 #total-income { color: var(--color-income); }
