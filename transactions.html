@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Design CSS and JS -->
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Material Design Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- App Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <title>All Transactions - Family Budget Tracker</title>
+</head>
+<body class="mdc-typography">
+
+<div class="container">
+    <div class="app-header">
+        <h1>All Transactions</h1>
+        <a href="index.html" class="mdc-button">
+            <span class="mdc-button__ripple"></span>
+            <span class="mdc-button__label">Back to Tracker</span>
+        </a>
+    </div>
+
+    <div class="summary">
+        <div class="period-filter">
+            <select id="period-select" aria-label="Select Period"></select>
+            <button id="reset-period-btn" class="mdc-button mdc-button--raised hidden" title="Reset to default period">
+                <span class="mdc-button__ripple"></span>
+                <i class="material-icons mdc-button__icon" aria-hidden="true">close</i>
+            </button>
+        </div>
+        <p id="page-description" class="text-secondary"></p>
+    </div>
+    <ul id="all-transaction-list" class="mdc-list mdc-list--two-line"></ul>
+</div>
+
+<script src="database.js" defer></script>
+<script src="period-selector-util.js" defer></script>
+<script src="all-transactions.js" defer></script>
+</body>
+</html>

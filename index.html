@@ -19,12 +19,14 @@
 <body class="mdc-typography">
 
 <div class="container">
-    <div class="app-header">
-        <h1>Budget Tracker</h1>
-        <a href="categories.html" class="mdc-button">
-            <span class="mdc-button__ripple"></span>
-            <span class="mdc-button__label">Manage Categories</span>
-        </a>
+    <div class="header-container">
+        <div class="app-header">
+            <h1>Budget Tracker</h1>
+            <a href="categories.html" class="mdc-button">
+                <span class="mdc-button__ripple"></span>
+                <span class="mdc-button__label">Manage Categories</span>
+            </a>
+        </div>
     </div>
 
 
@@ -78,11 +80,19 @@
         </div>
     </div>
     <!-- Transactions List -->
-    <h2>Transactions</h2>
-    <ul id="transaction-list" class="mdc-list mdc-list--two-line"></ul>  
+    <h2>Latest Transactions</h2>
+    <ul id="transaction-list" class="mdc-list mdc-list--two-line"></ul>
+
+    <!-- Link to all transactions page -->
+    <div id="show-all-container" class="text-center" style="margin-top: 1rem;">
+        <a href="transactions.html" class="mdc-button mdc-button--outlined">
+            <span class="mdc-button__label">Show All Transactions</span>
+        </a>
+    </div>
 </div>
 
 <script src="database.js" defer></script>
+<script src="period-selector-util.js" defer></script>
 <script src="app.js" defer></script>
 </body>
 </html>

@@ -19,7 +19,7 @@
 
 /* 2. Apply the design */
 body { font-family: var(--font-sans); color: var(--color-text-primary); background-color: var(--color-background); margin: 0; padding: 20px; }
-.container { max-width: 800px; margin: auto; background: var(--color-surface); padding: 1rem 2rem 2rem 2rem; border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md); }
+.container { max-width: 800px; margin: auto; background: var(--color-surface); padding: 2rem; border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md); }
 h1 { font-size: 1.75rem; margin-bottom: 1rem; }
 
 .summary { display: flex; justify-content: space-around; background: var(--color-background); padding: 1.5rem; border-radius: var(--border-radius-lg); margin: 2rem 0; text-align: center; }
@@ -38,6 +38,11 @@ h1 { font-size: 1.75rem; margin-bottom: 1rem; }
 #total-income { color: var(--color-income); }
 #total-expenses { color: var(--color-expense); }
 #balance { color: var(--color-accent); }
+
+.header-container {
+    /* This container helps manage the header layout, especially on mobile */
+    margin-bottom: 1rem;
+}
 
 .app-header {
     display: flex;
@@ -130,4 +135,39 @@ h1 { font-size: 1.75rem; margin-bottom: 1rem; }
 
 .hidden {
     display: none !important;
+}
+
+.show-all-li {
+    list-style-type: none;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* 3. Responsive Design for Mobile */
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container {
+        padding: 1rem;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .app-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    /* Stack the form and category manager columns */
+    .forms, .category-manager {
+        grid-template-columns: 1fr;
+        gap: 2.5rem; /* Increase gap for vertical stacking */
+    }
 }
