@@ -114,3 +114,6 @@
 2026-01-07 11:00:14.324 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1853
 2026-01-07 11:00:21.160 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1853
 2026-01-07 11:00:27.631 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1853
+2026-01-07 11:12:40.327 [info] Extension host terminating: received terminate message from renderer
+2026-01-07 11:12:40.329 [info] Lock '/home/mistourr/.codeoss/data/User/workspaceStorage/-692778d3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-01-07 11:12:40.700 [info] Extension host with pid 4258 exiting with code 0

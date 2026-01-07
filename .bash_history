@@ -21,3 +21,5 @@ npm start
 git config --global user.name "Victor"
 git config --global user.email "mistourr@gmail.com"
 git init
+git add .
+git commit -m "Initial commit: Stable version with working dropdowns"

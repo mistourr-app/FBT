@@ -12694,3 +12694,885 @@ Background process started with PID 17252
 [INFO] 2026-01-07 11:07:56.295 AM -- Loading extension: vertex (version: 0.1.0)
 (node:17252) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4659.084172
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 47.650682999999844
+[ERROR] 2026-01-07 11:08:01.136 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:08:01.137 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17295
+[ERROR] 2026-01-07 11:08:02.695 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:08:02.712 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17295) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4253.090865
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 40.90328099999988
+[ERROR] 2026-01-07 11:08:07.506 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:08:07.507 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17316
+[ERROR] 2026-01-07 11:08:08.698 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:08:08.701 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17316) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4336.561079
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 41.62605799999983
+[ERROR] 2026-01-07 11:08:13.228 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:08:13.229 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17352
+[ERROR] 2026-01-07 11:08:14.484 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:08:14.487 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17352) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4664.602798
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 38.81446700000015
+[ERROR] 2026-01-07 11:08:19.298 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:08:19.299 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17373
+[ERROR] 2026-01-07 11:08:20.540 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:08:20.544 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17373) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 3817.248942
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 52.95254300000033
+[ERROR] 2026-01-07 11:08:24.558 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:08:24.559 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17385
+[ERROR] 2026-01-07 11:08:25.818 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:08:25.821 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17385) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4001.4882609999995
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 45.01462400000037
+[ERROR] 2026-01-07 11:08:30.070 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:08:30.071 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17397
+[ERROR] 2026-01-07 11:08:31.293 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:08:31.297 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17397) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4189.474885
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 43.24444299999959
+[ERROR] 2026-01-07 11:08:35.675 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:08:35.676 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17409
+[ERROR] 2026-01-07 11:08:36.946 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:08:36.950 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17409) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4945.22882
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 38.19334299999991
+[ERROR] 2026-01-07 11:08:42.033 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:08:42.034 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17421
+[ERROR] 2026-01-07 11:08:43.217 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:08:43.220 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17421) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4197.500694
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 39.28097399999933
+[ERROR] 2026-01-07 11:08:47.606 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:08:47.607 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17435
+[ERROR] 2026-01-07 11:08:48.813 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:08:48.816 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17435) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4394.628148
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 42.31648599999971
+[ERROR] 2026-01-07 11:08:53.399 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:08:53.400 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17447
+[ERROR] 2026-01-07 11:08:54.597 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:08:54.600 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17447) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4109.5821750000005
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 42.943105999999716
+[ERROR] 2026-01-07 11:08:58.912 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:08:58.913 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17459
+[ERROR] 2026-01-07 11:09:01.023 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:09:01.026 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17459) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4110.20357
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 47.098432999999204
+[ERROR] 2026-01-07 11:09:05.335 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:09:05.336 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17471
+[ERROR] 2026-01-07 11:09:06.695 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:09:06.699 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17471) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4304.085301
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 42.50758499999938
+[ERROR] 2026-01-07 11:09:11.191 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:09:11.192 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17483
+[ERROR] 2026-01-07 11:09:12.440 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:09:12.443 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17483) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4089.7016940000003
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 39.60549699999956
+[ERROR] 2026-01-07 11:09:16.700 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:09:16.701 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17495
+[ERROR] 2026-01-07 11:09:17.878 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:09:17.881 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17495) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 3949.7860999999994
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 50.79432599999927
+[ERROR] 2026-01-07 11:09:22.025 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:09:22.026 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17507
+[ERROR] 2026-01-07 11:09:23.314 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:09:23.317 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17507) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4608.40359
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 51.39773799999966
+[ERROR] 2026-01-07 11:09:28.080 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:09:28.081 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17519
+[ERROR] 2026-01-07 11:09:29.251 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:09:29.254 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17519) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4447.37182
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 38.50278800000069
+[ERROR] 2026-01-07 11:09:33.845 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:09:33.846 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17531
+[ERROR] 2026-01-07 11:09:35.020 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:09:35.023 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17531) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4695.441247000001
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 54.21029300000009
+[ERROR] 2026-01-07 11:09:39.879 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:09:39.880 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17543
+[ERROR] 2026-01-07 11:09:41.046 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:09:41.049 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17543) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 3920.572104
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 45.47073100000034
+[ERROR] 2026-01-07 11:09:45.138 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:09:45.139 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17555
+[ERROR] 2026-01-07 11:09:46.466 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:09:46.469 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17555) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4243.877762
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 39.396185000000514
+[ERROR] 2026-01-07 11:09:50.898 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:09:50.899 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17567
+[ERROR] 2026-01-07 11:09:52.066 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:09:52.069 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17567) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4355.146650999999
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 39.77680899999996
+[ERROR] 2026-01-07 11:09:56.589 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:09:56.589 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17579
+[ERROR] 2026-01-07 11:09:57.828 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:09:57.832 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17579) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4328.244778
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 39.647739
+[ERROR] 2026-01-07 11:10:02.314 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:10:02.315 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17591
+[ERROR] 2026-01-07 11:10:03.590 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:10:03.593 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17591) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4697.8343540000005
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 38.5550889999995
+[ERROR] 2026-01-07 11:10:08.441 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:10:08.442 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17605
+[ERROR] 2026-01-07 11:10:09.664 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:10:09.667 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17605) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 5590.25684
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 43.40575799999988
+[ERROR] 2026-01-07 11:10:15.411 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:10:15.413 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17617
+[ERROR] 2026-01-07 11:10:16.708 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:10:16.711 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17617) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4012.4282010000006
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 40.76350399999956
+[ERROR] 2026-01-07 11:10:20.886 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:10:20.887 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17629
+[ERROR] 2026-01-07 11:10:22.164 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:10:22.167 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17629) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4523.086472
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 54.136272999999164
+[ERROR] 2026-01-07 11:10:26.868 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:10:26.869 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17641
+[ERROR] 2026-01-07 11:10:28.045 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:10:28.048 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17641) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4380.614689
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 35.75989100000061
+[ERROR] 2026-01-07 11:10:32.587 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:10:32.587 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17653
+[ERROR] 2026-01-07 11:10:33.800 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:10:33.803 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17653) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4413.802546
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 61.29795600000034
+[ERROR] 2026-01-07 11:10:38.414 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:10:38.415 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17665
+[ERROR] 2026-01-07 11:10:39.733 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:10:39.736 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17665) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4311.228053999999
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 59.16496499999994
+[ERROR] 2026-01-07 11:10:44.273 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:10:44.273 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17677
+[ERROR] 2026-01-07 11:10:46.182 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:10:46.185 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17677) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4168.798983
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 36.03492499999993
+[ERROR] 2026-01-07 11:10:50.550 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:10:50.551 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17690
+[ERROR] 2026-01-07 11:10:51.731 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:10:51.734 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17690) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4522.3070099999995
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 39.95999200000006
+[ERROR] 2026-01-07 11:10:56.399 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:10:56.400 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17702
+[ERROR] 2026-01-07 11:10:57.555 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:10:57.558 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17702) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4133.301886
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 42.085369999999784
+[ERROR] 2026-01-07 11:11:01.865 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:11:01.866 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17714
+[ERROR] 2026-01-07 11:11:03.136 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:11:03.139 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17714) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4094.174142
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 44.76048499999979
+[ERROR] 2026-01-07 11:11:07.426 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:11:07.427 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17726
+[ERROR] 2026-01-07 11:11:08.690 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:11:08.693 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17726) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 3923.6959180000003
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 47.621235000000524
+[ERROR] 2026-01-07 11:11:12.809 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:11:12.810 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17738
+[ERROR] 2026-01-07 11:11:14.046 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:11:14.049 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17738) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4383.841008
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 43.6533559999998
+[ERROR] 2026-01-07 11:11:18.584 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:11:18.585 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17750
+[ERROR] 2026-01-07 11:11:19.773 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:11:19.776 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17750) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 3881.7138019999998
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 42.08383599999979
+[ERROR] 2026-01-07 11:11:23.852 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:11:23.852 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17762
+[ERROR] 2026-01-07 11:11:25.034 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:11:25.037 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17762) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 3822.1240290000005
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 46.18627500000002
+[ERROR] 2026-01-07 11:11:29.057 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:11:29.057 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17774
+[ERROR] 2026-01-07 11:11:30.211 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:11:30.214 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17774) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4517.212907
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 45.13433899999927
+[ERROR] 2026-01-07 11:11:34.887 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:11:34.888 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17786
+[ERROR] 2026-01-07 11:11:36.127 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:11:36.129 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17786) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4186.612682
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 44.13496100000066
+[ERROR] 2026-01-07 11:11:40.495 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:11:40.495 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17800
+[ERROR] 2026-01-07 11:11:41.766 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:11:41.769 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17800) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4854.20992
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 59.598524
+[ERROR] 2026-01-07 11:11:46.785 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:11:46.786 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17812
+[ERROR] 2026-01-07 11:11:48.025 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:11:48.027 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17812) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4054.7544929999995
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 41.26753499999995
+[ERROR] 2026-01-07 11:11:52.220 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:11:52.221 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17824
+[ERROR] 2026-01-07 11:11:53.399 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:11:53.402 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17824) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4645.436663
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 38.12540999999965
+[ERROR] 2026-01-07 11:11:58.196 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:11:58.197 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17836
+[ERROR] 2026-01-07 11:11:59.442 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:11:59.445 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17836) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 3788.90286
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 37.22106900000017
+[ERROR] 2026-01-07 11:12:03.424 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:12:03.425 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17848
+[ERROR] 2026-01-07 11:12:04.596 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:12:04.599 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17848) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4090.6221610000002
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 43.01364799999919
+[ERROR] 2026-01-07 11:12:08.897 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:12:08.897 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17860
+[ERROR] 2026-01-07 11:12:10.174 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:12:10.178 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17860) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4304.502527000001
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 49.231832999999824
+[ERROR] 2026-01-07 11:12:14.684 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:12:14.685 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17872
+[ERROR] 2026-01-07 11:12:15.948 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:12:15.953 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17872) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4476.481411
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 48.64349800000036
+[ERROR] 2026-01-07 11:12:20.675 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:12:20.676 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17884
+[ERROR] 2026-01-07 11:12:21.912 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:12:21.915 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17884) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4619.630384
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 37.315004000000044
+[ERROR] 2026-01-07 11:12:26.676 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:12:26.676 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17901
+[ERROR] 2026-01-07 11:12:27.986 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:12:27.989 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17901) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4542.947301
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 41.76702800000021
+[ERROR] 2026-01-07 11:12:32.689 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:12:32.689 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17913
+[ERROR] 2026-01-07 11:12:33.881 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:12:33.884 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17913) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Loading extension: vertex
+[STARTUP] StartupProfiler.flush() called with 2 phases
+[STARTUP] Recording metric for phase: discover_tools duration: 4875.49406
+[STARTUP] Recording metric for phase: initialize_mcp_clients duration: 58.46368199999961
+[ERROR] 2026-01-07 11:12:38.928 AM -- [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+[ERROR] 2026-01-07 11:12:38.929 AM -- [CoreAgent] Error during startup: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.
+{
+  "stack": "Error: [Config] Unable to set GeneratorConfig. Please provide a GEMINI_API_KEY or set USE_CCPA.\n    at loadConfig (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:386526:11)\n    at async createApp (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388538:21)\n    at async main (file:///google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/agent/a2a-server.mjs:388698:24)"
+}
+
+Process exited with code 1 and signal null
+Process exited for restart, attempting to restart...
+Starting background process...
+Background process started with PID 17933
+[ERROR] 2026-01-07 11:12:40.162 AM -- Warning: unexpected file /home/mistourr/.gemini/extensions/extension-enablement.json in extensions directory.
+[INFO] 2026-01-07 11:12:40.165 AM -- Loading extension: vertex (version: 0.1.0)
+(node:17933) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)

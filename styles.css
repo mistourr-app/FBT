@@ -39,6 +39,12 @@ h1 { font-size: 1.75rem; margin-bottom: 1rem; }
 #total-expenses { color: var(--color-expense); }
 #balance { color: var(--color-accent); }
 
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .period-filter select {
     width: 100%; /* Make period selector full width */
 }
@@ -104,3 +110,24 @@ h1 { font-size: 1.75rem; margin-bottom: 1rem; }
     border: none; border-radius: var(--border-radius-md); color: white; background-color: var(--color-income); cursor: pointer;
 }
 #add-expense-form button { background-color: var(--color-expense); }
+
+.period-filter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#reset-period-btn {
+    min-width: 36px;
+    padding: 0;
+    height: 36px;
+    line-height: 36px;
+}
+
+#reset-period-btn .mdc-button__icon {
+    margin: 0;
+}
+
+.hidden {
+    display: none !important;
+}
