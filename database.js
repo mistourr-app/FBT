@@ -1,12 +1,15 @@
 // --- Default Data ---
 // This data will be used to initialize the database if it's empty.
+const today = new Date();
+const currentYear = today.getFullYear();
+const currentMonth = today.getMonth();
 const initialData = {
     transactions: [
         // --- Current Month Data ---
-        { id: 1, type: 'income', amount: 3200, category: 'Salary', date: new Date().toISOString() },
-        { id: 2, type: 'expense', amount: 1100, category: 'Housing', date: new Date().toISOString() },
-        { id: 3, type: 'expense', amount: 85, category: 'Transport', date: new Date().toISOString() },
-        { id: 4, type: 'expense', amount: 45, category: 'Health', date: new Date(new Date().setDate(new Date().getDate() - 5)).toISOString() },
+        { id: 1, type: 'income', amount: 3200, category: 'Salary', date: new Date(currentYear, currentMonth, 5).toISOString() },
+        { id: 2, type: 'expense', amount: 1100, category: 'Housing', date: new Date(currentYear, currentMonth, 1).toISOString() },
+        { id: 3, type: 'expense', amount: 85, category: 'Transport', date: new Date(currentYear, currentMonth, 8).toISOString() },
+        { id: 4, type: 'expense', amount: 45, category: 'Health', date: new Date(currentYear, currentMonth, 3).toISOString() },
 
         // --- 2025 Data ---
         { id: 5, type: 'income', amount: 3100, category: 'Salary', date: new Date('2025-01-05').toISOString() },
@@ -41,7 +44,11 @@ function getDB() {
 }
 
 function saveDB(db) {
-    localStorage.setItem('budget-tracker-db', JSON.stringify(db));
+    try {
+        localStorage.setItem('budget-tracker-db', JSON.stringify(db));
+    } catch (error) {
+        console.error("Failed to save database to localStorage:", error);
+    }
 }
 
 // --- API-like Functions (these replace the server endpoints) ---
@@ -77,9 +84,10 @@ const db = {
 
     deleteTransaction: (id) => {
         const data = getDB();
-        const initialLength = data.transactions.length;
-        data.transactions = data.transactions.filter(t => t.id !== id);
-        if (data.transactions.length < initialLength) {
+        const indexToDelete = data.transactions.findIndex(t => t.id === id);
+
+        if (indexToDelete > -1) {
+            data.transactions.splice(indexToDelete, 1); // Remove the item by index
             saveDB(data);
             return true;
         }
@@ -110,9 +118,63 @@ const db = {
             income: data.incomeCategories,
             expenses: data.expenseCategories
         };
+    },
+
+    addCategory: (type, name) => {
+        const data = getDB();
+        const categoryArray = type === 'income' ? data.incomeCategories : data.expenseCategories;
+        if (categoryArray.includes(name)) {
+            throw new Error(`Category "${name}" already exists.`);
+        }
+        categoryArray.push(name);
+        saveDB(data);
+        return true;
+    },
+
+    deleteCategory: (type, name) => {
+        const data = getDB();
+        // Check if the category is in use by any transaction
+        const isUsed = data.transactions.some(t => t.category === name && t.type === type);
+        if (isUsed) {
+            throw new Error(`Cannot delete category "${name}" because it is currently in use by one or more transactions.`);
+        }
+
+        const categoryArray = type === 'income' ? data.incomeCategories : data.expenseCategories;
+        const indexToDelete = categoryArray.indexOf(name);
+
+        if (indexToDelete > -1) {
+            categoryArray.splice(indexToDelete, 1);
+            saveDB(data);
+            return true;
+        }
+        return false;
+    },
+
+    renameCategory: (type, oldName, newName) => {
+        const data = getDB();
+        const categoryArray = type === 'income' ? data.incomeCategories : data.expenseCategories;
+
+        // Check if the new name already exists
+        if (categoryArray.includes(newName)) {
+            throw new Error(`Category "${newName}" already exists.`);
+        }
+
+        const indexToRename = categoryArray.indexOf(oldName);
+        if (indexToRename > -1) {
+            // Rename in category list
+            categoryArray[indexToRename] = newName;
+
+            // Update all transactions using the old category name
+            data.transactions.forEach(t => {
+                if (t.category === oldName && t.type === type) {
+                    t.category = newName;
+                }
+            });
+            saveDB(data);
+            return true;
+        }
+        return false;
     }
-    // Note: Category management (add, rename, delete) would require more functions here.
-    // For now, we'll just read them.
 };
 
 // Initialize the database on script load

@@ -63,30 +63,19 @@ function populateDateFilter() {
   const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]; // Keep for formatting
   const years = Object.keys(availableDates).sort((a, b) => b - a);
   const today = new Date();
-
   // Set the default view to the current month and year.
   defaultYear = String(today.getFullYear());
   defaultMonth = String(today.getMonth() + 1);
 
   years.forEach(year => {
-    // Make the year option selectable to view the whole year's summary.
-    // The value 'YYYY-null' tells the backend to fetch data for the entire year.
-    const yearOption = new Option(year, `${year}-null`);
-    selectEl.appendChild(yearOption);
+    const optgroup = document.createElement('optgroup');
+    optgroup.label = year;
+    selectEl.appendChild(optgroup);
 
     const months = availableDates[year];
     months.forEach(month => {
-      // Indent month names for better visual grouping under the year
-      // The text in the list will just be the month name.
-      const listText = `  ${monthNames[month - 1]}`;
-      // The text when selected will be 'Month, Year'.
-      const displayText = `  ${monthNames[month - 1]}, ${year}`;
-
-      const monthOption = new Option(listText, `${year}-${month}`);
-      // Store both text formats in data attributes to swap them later.
-      monthOption.dataset.listText = listText;
-      monthOption.dataset.displayText = displayText;
-      selectEl.appendChild(monthOption);
+      const monthOption = new Option(monthNames[month - 1], `${year}-${month}`);
+      optgroup.appendChild(monthOption);
     });
   });
 
@@ -102,7 +91,6 @@ function populateDateFilter() {
   setSelectedDate(defaultYear, defaultMonth);
 
   // Now that the options are populated, update the text of the initial selection.
-  updateSelectedOptionText(selectEl);
 }
 
 // Fetches all data and re-renders the entire UI
@@ -167,8 +155,15 @@ function addTransaction(event, type) {
   event.preventDefault();
   const amountInput = document.getElementById(`${type}-amount`);
   const categoryInput = document.getElementById(`${type}-category`);
-  const amount = amountInput.value;
+  const amountValue = amountInput.value;
   const category = categoryInput.value;
+
+  const amount = parseFloat(amountValue);
+
+  if (isNaN(amount) || amount <= 0) {
+    alert('Please enter a valid, positive amount.');
+    return;
+  }
 
   if (!category) {
     alert('Please select a category.');
@@ -208,64 +203,17 @@ transactionList.addEventListener('click', (event) => {
   }
 });
 
-// Helper to update the text of the selected option to 'Month, Year'
-// and reset others to just 'Month'.
-function updateSelectedOptionText(selectElement) {
-  for (const option of selectElement.options) {
-    // Check if the option has our custom data attributes
-    if (option.dataset.listText) {
-      if (option.selected) {
-        option.textContent = option.dataset.displayText;
-      } else {
-        option.textContent = option.dataset.listText;
-      }
-    }
-  }
-}
-
 // --- MDC Initialization ---
 function initializeMDC() {
   document.querySelectorAll('.mdc-button').forEach(el => new mdc.ripple.MDCRipple(el));
   document.querySelectorAll('.mdc-icon-button').forEach(el => new mdc.ripple.MDCRipple(el));
 
-  // Add event listener for the reset period button
-  resetPeriodBtn.addEventListener('click', () => {
-    const selectEl = document.getElementById('period-select');
-    // Set the dropdown value back to the default
-    const defaultValue = `${defaultYear}-${defaultMonth}`;
-    if (selectEl.querySelector(`option[value="${defaultValue}"]`)) {
-      selectEl.value = defaultValue;
-    }
-    // Update the display text of the dropdown
-    updateSelectedOptionText(selectEl);
-    // Fetch data for the default period
-    setSelectedDate(defaultYear, defaultMonth);
-  });
-
   // Add event listener for the period select dropdown
   const periodSelect = document.getElementById('period-select');
 
-  // On change, update text and fetch new data.
   periodSelect.addEventListener('change', (event) => {
     const [year, month] = event.target.value.split('-');
-    updateSelectedOptionText(event.target);
     setSelectedDate(year, month);
-  });
-
-  // When the user focuses on the select (to open it),
-  // reset all month options to their short list format.
-  periodSelect.addEventListener('focus', () => {
-    for (const option of periodSelect.options) {
-      if (option.dataset.listText) {
-        option.textContent = option.dataset.listText;
-      }
-    }
-  });
-
-  // When the user clicks away (closing the dropdown),
-  // update the selected option to its long display format.
-  periodSelect.addEventListener('blur', () => {
-    updateSelectedOptionText(periodSelect);
   });
 }
 

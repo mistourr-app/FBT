@@ -15,7 +15,7 @@
 <div class="container">
     <div style="display: flex; justify-content: space-between; align-items: center;">
         <h1>Manage Categories</h1>
-        <a href="/" class="mdc-button">
+        <a href="index.html" class="mdc-button">
             <span class="mdc-button__ripple"></span>
             <span class="mdc-button__label">Back to Tracker</span>
         </a>
@@ -78,148 +78,8 @@
     <div class="mdc-dialog__scrim"></div>
 </div>
 
-<script>
-    const apiUrl = ''; // Use relative paths for API calls
-    const incomeList = document.getElementById('income-list');
-    const expenseList = document.getElementById('expense-list');
-    let renameDialog, renameTextField;
-    let categoryToRename = {};
-
-    // Function to render a list of categories
-    function renderCategoryList(listElement, categories, type) {
-        listElement.innerHTML = '';
-        categories.forEach(cat => {
-            const li = document.createElement('li');
-            li.innerHTML = `
-                <span>${cat}</span>
-                <div class="controls">
-                    <button class="rename-btn" data-type="${type}" data-name="${cat}" title="Rename"><i class="fas fa-pencil-alt"></i></button>
-                    <button class="delete-btn" data-type="${type}" data-name="${cat}" title="Delete"><i class="fas fa-trash-alt"></i></button>
-                </div>
-            `;
-            listElement.appendChild(li);
-        });
-    }
-
-    // Fetch and render all categories
-    async function fetchAndRenderCategories() {
-        const response = await fetch(`${apiUrl}/categories`);
-        if (response.ok) {
-            const data = await response.json();
-            renderCategoryList(incomeList, data.income, 'income');
-            renderCategoryList(expenseList, data.expenses, 'expense');
-        } else {
-            alert('Error: Could not fetch categories.');
-        }
-    }
-
-    // Handle adding a new category
-    async function addCategory(event, type) {
-        event.preventDefault();
-        const input = document.getElementById(`new-${type}-category`);
-        const name = input.value.trim();
-        if (!name) return;
-
-        try {
-            await fetch(`${apiUrl}/categories`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ type, name }),
-            });
-        } catch (error) {
-            alert(`Error adding category: ${error}`);
-            return;
-        }
-        
-        input.value = '';
-        await fetchAndRenderCategories();
-    }
-
-    // Handle renaming a category
-    async function renameCategory(type, oldName) {
-        // Store the category info and open the dialog
-        categoryToRename = { type, oldName };
-        renameTextField.value = oldName;
-        // We need to re-layout the text field label
-        renameTextField.layout();
-        renameDialog.open();
-        document.getElementById('rename-input').focus();
-    }
-
-    // Handle deleting a category
-    async function deleteCategory(type, name) {
-        if (!confirm(`Are you sure you want to delete the category "${name}"?`)) return;
-
-        try {
-            const response = await fetch(`${apiUrl}/categories`, {
-                method: 'DELETE',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ type, name }),
-            });
-
-            if (!response.ok) {
-                const errorData = await response.json();
-                throw new Error(errorData.error || 'Server error');
-            }
-            await fetchAndRenderCategories();
-        } catch (error) {
-            alert(`Error deleting category: ${error.message}`);
-        }
-    }
-
-    // Event Listeners
-    document.getElementById('add-income-form').addEventListener('submit', (e) => addCategory(e, 'income'));
-    document.getElementById('add-expense-form').addEventListener('submit', (e) => addCategory(e, 'expense'));
-
-    // Use event delegation for rename and delete buttons on the category manager
-    document.querySelector('.category-manager').addEventListener('click', (event) => {
-        const button = event.target.closest('button');
-        if (!button) return;
-
-        const { type, name } = button.dataset;
-
-        if (button.classList.contains('rename-btn')) {
-            renameCategory(type, name);
-        } else if (button.classList.contains('delete-btn')) {
-            deleteCategory(type, name);
-        }
-    });
-
-    // --- App Initialization ---
-    function initializeApp() {
-        // Initialize standard MDC components
-        document.querySelectorAll('.mdc-button').forEach(el => new mdc.ripple.MDCRipple(el));
-
-        // Initialize Dialog
-        const dialogElement = document.getElementById('rename-dialog');
-        renameDialog = new mdc.dialog.MDCDialog(dialogElement);
-        renameTextField = new mdc.textField.MDCTextField(document.getElementById('rename-field-mdc'));
-
-        // Add listener for when the dialog closes
-        renameDialog.listen('MDCDialog:closing', async (event) => {
-            if (event.detail.action === 'accept') {
-                const newName = renameTextField.value.trim();
-                const { type, oldName } = categoryToRename;
-
-                if (!newName || newName === oldName) return;
-
-                try {
-                    await fetch(`${apiUrl}/categories`, {
-                        method: 'PUT',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ type, oldName, newName }),
-                    });
-                    await fetchAndRenderCategories();
-                } catch (error) {
-                    alert(`Error renaming category: ${error}`);
-                }
-            }
-        });
-
-        fetchAndRenderCategories();
-    }
-    initializeApp();
-</script>
+<script src="database.js" defer></script>
+<script src="categories.js" defer></script>
 
 </body>
 </html>
