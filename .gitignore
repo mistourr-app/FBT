@@ -1,0 +1,11 @@
+# Node.js
+node_modules/
+.npm/
+npm-debug.log*
+
+# Editor/OS files
+.codeoss/
+.vscode/
+.DS_Store
+.cache
+.bash_history
