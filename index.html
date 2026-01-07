@@ -19,7 +19,7 @@
 <body class="mdc-typography">
 
 <div class="container">
-    <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="app-header">
         <h1>Budget Tracker</h1>
         <a href="/categories.html" class="mdc-button">
             <span class="mdc-button__ripple"></span>
@@ -46,6 +46,11 @@
         </div>
         <div class="period-filter">
             <select id="period-select" aria-label="Select Period"></select>
+            <!-- The 'hidden' class will be toggled by app.js -->
+            <button id="reset-period-btn" class="mdc-button mdc-button--raised hidden" title="Reset to default period">
+                <span class="mdc-button__ripple"></span>
+                <i class="material-icons mdc-button__icon" aria-hidden="true">close</i>
+            </button>
         </div>
     </div>
 
@@ -77,6 +82,7 @@
     <ul id="transaction-list" class="mdc-list mdc-list--two-line"></ul>  
 </div>
 
+<script src="database.js" defer></script>
 <script src="app.js" defer></script>
 </body>
 </html>

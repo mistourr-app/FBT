@@ -1,7 +1,7 @@
-const apiUrl = ''; // Use relative paths for API calls
 const transactionList = document.getElementById('transaction-list');
 const incomeForm = document.getElementById('income-form');
 const expenseForm = document.getElementById('expense-form');
+const resetPeriodBtn = document.getElementById('reset-period-btn');
 
 const incomeCategorySelect = document.getElementById('income-category');
 const expenseCategorySelect = document.getElementById('expense-category');
@@ -13,6 +13,17 @@ let selectedMonth;
 let defaultYear;
 let defaultMonth;
 
+// Shows or hides the reset button based on the current selection
+function updateResetButtonVisibility() {
+  // The button should be visible if the selected period is not the default one.
+  // Note: selectedMonth can be null for year-only views, but defaultMonth is always set.
+  const isDefaultSelected = selectedYear === defaultYear && selectedMonth === defaultMonth;
+  if (isDefaultSelected) {
+    resetPeriodBtn.classList.add('hidden');
+  } else {
+    resetPeriodBtn.classList.remove('hidden');
+  }
+}
 
 // Helper to format currency
 const formatCurrency = (amount) =>
@@ -23,13 +34,12 @@ const formatDate = (isoString) =>
   new Date(isoString).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
 // Function to populate category dropdowns
-async function populateCategories() {
+function populateCategories() {
   incomeCategorySelect.innerHTML = '<option value="" disabled selected>Select category</option>';
   expenseCategorySelect.innerHTML = '<option value="" disabled selected>Select category</option>';
   try {
-    const response = await fetch(`${apiUrl}/categories`);
-    if (!response.ok) throw new Error('Failed to fetch categories');
-    const categories = await response.json();
+    // Replaced fetch with local db call
+    const categories = db.getCategories();
     categories.income.forEach(cat => {
       incomeCategorySelect.add(new Option(cat, cat));
     });
@@ -43,9 +53,9 @@ async function populateCategories() {
 }
 
 // Function to populate the date filter dropdown
-async function populateDateFilter() {
-  const response = await fetch(`${apiUrl}/transactions/dates`);
-  availableDates = await response.json();
+function populateDateFilter() {
+  // Replaced fetch with local db call
+  availableDates = db.getAvailableDates();
 
   const selectEl = document.getElementById('period-select');
   selectEl.innerHTML = ''; // Clear existing items
@@ -89,20 +99,17 @@ async function populateDateFilter() {
   }
   // If the default date isn't in the list, it will default to the first option.
 
-  await setSelectedDate(defaultYear, defaultMonth);
+  setSelectedDate(defaultYear, defaultMonth);
 
   // Now that the options are populated, update the text of the initial selection.
   updateSelectedOptionText(selectEl);
 }
 
 // Fetches all data and re-renders the entire UI
-async function refreshUI() {
+function refreshUI() {
   try {
-    // Build the query string for filtering
-    const query = new URLSearchParams({ year: selectedYear, month: selectedMonth }).toString();
-    const response = await fetch(`${apiUrl}/transactions?${query}`);
-    if (!response.ok) throw new Error('Failed to fetch transactions');
-    const transactions = await response.json();
+    // Replaced fetch with local db call
+    const transactions = db.getTransactions(selectedYear, selectedMonth);
 
     // Clear previous list
     transactionList.innerHTML = '';
@@ -147,15 +154,16 @@ async function refreshUI() {
 }
 
 // Sets the selected date and triggers a UI refresh
-async function setSelectedDate(year, month) {
+function setSelectedDate(year, month) {
   selectedYear = String(year);
   // Ensure month is either a string or null, not the string 'null'
   selectedMonth = (month && month !== 'null') ? String(month) : null;
-  await refreshUI();
+  refreshUI();
+  updateResetButtonVisibility();
 }
 
 // Generic function to handle adding a transaction
-async function addTransaction(event, type) {
+function addTransaction(event, type) {
   event.preventDefault();
   const amountInput = document.getElementById(`${type}-amount`);
   const categoryInput = document.getElementById(`${type}-category`);
@@ -168,12 +176,8 @@ async function addTransaction(event, type) {
   }
 
   try {
-    const response = await fetch(`${apiUrl}/transactions`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ type, amount, category, date: new Date().toISOString() }),
-    });
-    if (!response.ok) throw new Error('Failed to add transaction');
+    // Replaced fetch with local db call
+    db.addTransaction({ type, amount, category, date: new Date().toISOString() });
   } catch (error) {
     console.error('Error adding transaction:', error);
     alert('Could not add transaction. Please try again.');
@@ -181,7 +185,7 @@ async function addTransaction(event, type) {
 
   amountInput.value = '';
   categoryInput.value = '';
-  await refreshUI();
+  refreshUI();
 }
 
 // Event Listeners
@@ -189,13 +193,14 @@ incomeForm.addEventListener('submit', (e) => addTransaction(e, 'income'));
 expenseForm.addEventListener('submit', (e) => addTransaction(e, 'expense'));
 
 // Event listener for deleting transactions (using event delegation)
-transactionList.addEventListener('click', async (event) => {
+transactionList.addEventListener('click', (event) => {
   if (event.target.classList.contains('delete-btn')) {
     const id = event.target.dataset.id;
     if (confirm('Are you sure you want to delete this transaction?')) {
       try {
-        await fetch(`${apiUrl}/transactions/${id}`, { method: 'DELETE' });
-        await refreshUI();
+        // Replaced fetch with local db call
+        db.deleteTransaction(parseInt(id, 10));
+        refreshUI();
       } catch (error) {
         alert('Error deleting transaction.');
       }
@@ -223,14 +228,28 @@ function initializeMDC() {
   document.querySelectorAll('.mdc-button').forEach(el => new mdc.ripple.MDCRipple(el));
   document.querySelectorAll('.mdc-icon-button').forEach(el => new mdc.ripple.MDCRipple(el));
 
+  // Add event listener for the reset period button
+  resetPeriodBtn.addEventListener('click', () => {
+    const selectEl = document.getElementById('period-select');
+    // Set the dropdown value back to the default
+    const defaultValue = `${defaultYear}-${defaultMonth}`;
+    if (selectEl.querySelector(`option[value="${defaultValue}"]`)) {
+      selectEl.value = defaultValue;
+    }
+    // Update the display text of the dropdown
+    updateSelectedOptionText(selectEl);
+    // Fetch data for the default period
+    setSelectedDate(defaultYear, defaultMonth);
+  });
+
   // Add event listener for the period select dropdown
   const periodSelect = document.getElementById('period-select');
 
   // On change, update text and fetch new data.
-  periodSelect.addEventListener('change', async (event) => {
+  periodSelect.addEventListener('change', (event) => {
     const [year, month] = event.target.value.split('-');
     updateSelectedOptionText(event.target);
-    await setSelectedDate(year, month);
+    setSelectedDate(year, month);
   });
 
   // When the user focuses on the select (to open it),
@@ -251,11 +270,11 @@ function initializeMDC() {
 }
 
 // --- App Initialization ---
-async function initializeApp() {
+function initializeApp() {
   initializeMDC();
-  await populateCategories();
+  populateCategories();
   // This will populate the filter and trigger the initial UI refresh for the current month
-  await populateDateFilter();
+  populateDateFilter();
 }
 
 initializeApp();
